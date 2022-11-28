@@ -10,8 +10,8 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <JSXRules text={'Witom'} />
-    <FancyTable n={5} />
-    <Multiple name={'Wilkommen'} number={6} />
+    <JSXRules text={'Hello'} />
+    <FancyTable n={3} />
+    <Multiple name={'World'} number={2} />
   </StrictMode>
 );
